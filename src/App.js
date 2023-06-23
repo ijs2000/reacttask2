@@ -24,8 +24,8 @@ function App() {
 
     
   return (
-    <>
-        
+    
+        <>
     <Navigation cartItems={cartItems} />
     <Header />
     <Cart cartItems={cartItems} removeItem={removeItem} />
